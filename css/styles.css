@@ -1,0 +1,244 @@
+
+/******** Global CSS ***********/
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #666;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.container{
+    margin: auto;
+    max-width: 1200px;
+}
+
+/******* Section Styles ********/
+
+body {  
+    text-align: center;
+}
+
+p {
+    padding: 0 10px;
+}
+    
+header, .nav-bar {
+    background: #2D3E50;
+    overflow: auto;
+}
+
+.topmenu a {
+    color: #2D3E50;
+}
+ 
+.name {
+    padding-top: 20px;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.name a {
+    color: #fff;
+}
+
+ul {
+    padding: 0;
+    margin-bottom: 0px;
+}
+    
+li {
+    background: #fff;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px 0;
+}
+
+li a {
+    color: #666;
+    font-size: 18px;
+    font-weight: 700;    
+}
+
+    
+header {
+    padding: 30px 0;
+    color: #fff;
+}
+    
+.profile-image {
+    width: 70%;
+    margin-top: 30px;
+}
+
+img {
+    width: 90%;
+    margin-top: 20px;
+}
+    
+.skillssection {
+    margin-bottom: 80px;
+}
+
+.contact {
+    padding: 60px 0 67px 0;  
+    background: #62717E;
+    color: #fff;
+}
+
+.contact h2 {
+    font-weight: 700;    
+}
+    
+.contact a {
+    color: #E0AB26;
+    font-weight: 700;
+}
+ 
+.contact a:hover {
+     color: #fff;   
+}
+    
+hr {
+    margin: 40px 20px 0 20px;
+}
+
+footer li {
+        display: none;
+}
+
+.footername {
+     color: #2D3E50;
+     font-weight: 700;
+     float: left;
+     margin: 20px 0 30px 10px;
+}
+
+.backtotop {
+    color: #2D3E50;
+    font-weight: 700;
+    float: right;
+    margin: 20px 10px 30px 0;
+}
+
+   
+/****************** MEDIA QUERIES **************/
+
+/******* 768px Tablet view *******/    
+    
+ @media (min-width: 768px) { 
+  
+
+li {
+    display: inline;
+    background: 0;
+    padding: 0 20px;
+}
+
+.topmenu a {
+    color: #fff;
+}
+
+.topmenu a:hover {
+    color: #F3724B;
+}     
+     
+header {
+    min-height: 300px;
+    font-size: 20px;
+}
+
+.introtxt {
+    float: left;
+    width: 50%;
+    margin-top: 40px;
+}
+     
+.profile-image {
+    float: right;
+    width: 40%;
+    margin-right: 20px;
+}
+
+     
+.section1, .section2, .section3, .section4, .section5, .section6 {
+    float: left;
+    min-height: 400px;
+    max-width: 50%;
+    margin-top: 20px;
+}
+   
+.centercontact {
+    width: 80%;
+    margin: auto;   
+}
+     
+.contact p {
+    font-size: 20px;
+}
+
+     
+.footername {
+     margin-left: 20px;    
+}
+     
+.backtotop {
+    display: none;
+}
+
+footer li  {
+    display: inline;
+}
+     
+footer li a {
+    float: right;
+    margin-right: 20px;
+    color: #2D3E50;
+     }
+     
+footer li a:hover {
+    color: #F3724B;
+     }
+}
+
+/******* 1024px Desktop view *******/    
+    
+@media (min-width: 1024px) { 
+
+.name {
+        float: left;
+        padding-left: 50px;
+    }
+
+.topmenu {
+        float: right;
+        padding: 10px;
+    }
+
+.introtxt {
+        float: left;
+        width: 50%;
+        padding: 40px 0 0 40px;
+    }
+    
+.profile-image {
+        float: right;
+        width: 35%;
+        padding: 40px;
+    }
+    
+.section1, .section2, .section3, .section4, .section5, .section6  {
+    float: left;
+    width: 33%;
+    margin-top: 20px;
+}
+} 
+    
